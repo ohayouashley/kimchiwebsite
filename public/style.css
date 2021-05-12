@@ -18,11 +18,12 @@ h1 {
     margin: auto;
   }
     
-
+main {
+    background: lightblue;
+}
   .grid {
     display: flex; 
     border: 5px solid darkred;
-    padding: 10px;
     place-items: left;
     margin-left: auto;
     margin-right: auto;
@@ -30,13 +31,10 @@ h1 {
   }
   
   h2 {
-      background-color: #c70700;
-      display: center;
-      color: wheat;
-      font-size: 20px;
-      margin: auto;
-      padding-top: 10px;
-      text-align:center;
+    background: white;
+    color: #333;
+    width: 500px;
+    
   }
 
   h3 {
