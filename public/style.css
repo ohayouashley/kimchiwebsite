@@ -15,17 +15,19 @@ h1 {
     color: wheat;
     font-size: 45px;
     text-align: center;
-    margin: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+
   }
     
 main {
-    background: lightblue;
+    background: wheat;
 }
   .grid {
     display: flex; 
     border: 5px solid darkred;
     place-items: left;
-    margin-left: auto;
+    margin-left:200px;
     margin-right: auto;
     width: 30%;
   }
@@ -34,6 +36,7 @@ main {
     background: white;
     color: #333;
     width: 500px;
+    font-size: 20px;
     
   }
 
