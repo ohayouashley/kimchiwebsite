@@ -50,6 +50,7 @@ main {
   }
 
 .columns {
+    display: flex;
     background-color: #c70700;
     color: wheat;
     font-size: 20px;
