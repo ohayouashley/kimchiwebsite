@@ -34,10 +34,11 @@ main {
   
   h2 {
     background: white;
+    border: darkred 5px solid;
     color: #333;
-    width: 450px;
+    width: 400px;
     font-size: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
     
   }
 
