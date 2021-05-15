@@ -23,6 +23,7 @@ h1 {
 main {
     background: wheat;
 }
+
   .grid {
     display: flex; 
     border: 5px solid darkred;
@@ -34,6 +35,8 @@ main {
   
   h2 {
     background: white;
+    margin-left: auto;
+    /* margin-bottom: 100px; */
     border: darkred 5px solid;
     color: #333;
     width: 400px;
@@ -51,17 +54,16 @@ main {
 
 .columns {
     display: flex;
+    align-items: center;
     background-color: #c70700;
     color: wheat;
     font-size: 20px;
-    margin: auto;
 }
 
 .column {
-    background-color: #c70700;
-    color: wheat;
-    font-size: 20px;
-    margin: auto;
+    border: 2px solid navy;
+    margin: 5px;
+    padding: 10px;
 }
 
 footer {
@@ -70,8 +72,4 @@ footer {
     font-size: 12px;
     text-align: center;
     margin: auto;
-}
-
-.btnbtn-primary {
-    text-align: center;
 }
