@@ -1,75 +1,52 @@
 body {
-    background-color: #fff4e6;
-    font-size: 23;
-    font-family: arial;
-    
-}
-
-header {
-    color: #c70700
-}
-
-
-h1 {
-    background-color: #fff4e6;
-    color: wheat;
-    font-size: 45px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom:50px;
-
-  }
-    
-main {
-    background: wheat;
-}
-
-  .grid {
-    display: flex; 
-    border: 5px solid darkred;
-    place-items: left;
-    margin-left:200px;
-    margin-right: auto;
-    width: 30%;
+    font-size: 16px; 
   }
   
-  h2 {
-    background: white;
+  h1 {
+    font-size: 48px;
+    color: #2e7ad3;
+    text-align: center;
+    margin: 45px 0;
+  }
+  
+img {
+    display: flex;
+    width: 35%;
     margin-left: auto;
-    /* margin-bottom: 100px; */
-    border: darkred 5px solid;
-    color: #333;
-    width: 400px;
-    font-size: 20px;
-    padding-bottom: 120px;
+    margin-right: auto;
+    border: darkorange solid 18px;
+}
+
+  h2 {
+    font-size: 32px;
+    color: #104c90;
+    margin: 0 0 10px;
+  }
+  
+  a {
+    color: #ff8000;
+    font-weight: bold;
     
   }
-
-  h3 {
-    background-color: #c70700;
-    color: wheat;
-    font-size: 20px;
-    margin: auto;
+  
+  a:hover, 
+  a:focus {
+    color: #104c90;
   }
-
-.columns {
-    display: flex;
-    align-items: center;
-    background-color: #c70700;
-    color: wheat;
-    font-size: 20px;
-}
-
-.column {
-    border: 2px solid navy;
-    margin: 5px;
-    padding: 10px;
-}
-
+  
+  .kimchi-post {
+    background: #f1f1f1;
+    width: 450px;
+    padding: 25px;
+    margin: 0 auto;
+    
+  }
+  
 footer {
-    background-color: #c70700;
-    color: wheat;
-    font-size: 12px;
+    background: lightgrey;
+    color: #2e7ad3; 
+    width: 450px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
+
 }
