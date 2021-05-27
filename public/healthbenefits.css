@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+h1 {
+    color: #2e7ad3;
+    text-align: center;
+    margin: 45px 0;
+}
+
+
+
+img {
+    display: flex;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #eb6b34 solid 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.intro {
+    background: #f1f1f1;
+    color: black;
+    width: 450px;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my-skills {
+    background-color: #104c90;
+    color: #fff;
+    padding: 75px;
+    text-align: center;
+
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 10px;
+    border: #fff 3px solid;
+    padding: 15px;
+
+}
+
+.buttons {
+    text-align:center;
+}
